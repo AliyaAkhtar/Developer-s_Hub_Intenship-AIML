@@ -1,0 +1,28 @@
+classifier/app/api/classifier/VGG16_custom/variables/variables.data-00000-of-00001
+# Virtual environment
+virtual/
+.env
+
+# Ignore specific directories
+/__pycache__/
+/app/__pycache__/
+/app/api/__pycache__/
+/app/api/resume/__pycache__/
+
+# Ignore all pyc files
+*.pyc
+
+# Ignore specific directories or files
+/app/Resume_uploads/
+
+# Ignore Docker specific
+.dockerignore
+
+# Other common files to ignore
+*.log
+*.bak
+*.swp
+*.swo
+*.pid
+*.lock
+*.DS_Store
