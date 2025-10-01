@@ -4,8 +4,6 @@
 The main goal of this project is to **classify news articles into predefined categories** using the **BERT (Bidirectional Encoder Representations from Transformers)** model.  
 The dataset contains news headlines and descriptions, and the task is to train a transformer-based model that can accurately predict the category of a given news item.
 
----
-
 ## ⚙️ Methodology / Approach
 1. **Data Preparation**
    - Used the **News Category Dataset v2**.
@@ -31,8 +29,6 @@ The dataset contains news headlines and descriptions, and the task is to train a
    - Measured accuracy on the test set.
    - Generated a **confusion matrix** to visualize misclassifications.
 
----
-
 ## 📊 Key Results / Observations
 - Achieved an **accuracy of ~70.45%** on the test dataset.
 - Observations:
@@ -41,14 +37,12 @@ The dataset contains news headlines and descriptions, and the task is to train a
   - The confusion matrix shows that misclassifications often occurred between semantically close categories.
 - The model demonstrates that **transformer-based models like BERT are highly effective for multi-class text classification** tasks, even on noisy real-world datasets.
 
----
-
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/news-classification-bert.git
    cd news-classification-bert
-````
+    ````
 
 2. Install dependencies:
 
@@ -60,9 +54,7 @@ The dataset contains news headlines and descriptions, and the task is to train a
    ```bash
    jupyter notebook news-classification-using-bert.ipynb
    ```
-
----
-
+   
 ## 📂 Files
 
 * `news-classification-using-bert.ipynb` → Jupyter Notebook containing code and experiments.
